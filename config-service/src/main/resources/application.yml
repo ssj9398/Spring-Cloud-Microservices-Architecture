@@ -8,4 +8,4 @@ spring:
     config:
       server:
         git:
-          uri: file:///E:/Project&Prac/Microservice Architecture/Local Git Repository
+          uri: file:///E:/Project&Prac/spring-cloud-config-test
