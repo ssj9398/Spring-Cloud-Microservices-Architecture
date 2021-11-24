@@ -15,8 +15,8 @@ spring:
     config:
       server:
         native:
-          search-locations: file:///E:/new/native-file-repo
-          # file:///E:/Project&Prac/spring-cloud-config-test   (집)
+          # search-locations: file:///E:/new/native-file-repo
+          search-locations: file:///E:/Project&Prac/Native-File-Repo_   # (집)
         git:
           uri: file:///E:/Project&Prac/spring-cloud-config-test
           #uri: file:///E:/new/native-file-repo

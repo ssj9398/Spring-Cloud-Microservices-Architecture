@@ -1,3 +1,11 @@
+spring: 
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}AQCv9Qy7UvzCXIVh8HQ+Y6QDLO0SapJVPoXzxVVkXt8KbtTc8uF5iPezo4CocasiOlIIPyzSZ+mUlPSafV4ZDHSoto47XH1iHH1OXTmUP+0w09RSeyRK2I6wenje4+Se0zH2e0JqjdTCdDTnQpLggrYbDesd25ga/4pYh1UNuCh1sIf0MzU2cQXuoEFWsaWFfTRQ5fmDM/Jil7bpOhfhAXDF5pGmXvTj3KqZKNQCxnR9qcWn4DowYzKridmFzvXbqKEBblKzctLq5N7c+1ayPPdS2EUsO3tVFBR/LwOAdIWqm0qBnBlRmCat4lr+XRnS27wWFEW3H4EyJ9lL6JUrDHS62kmCLzRiP2J+9Y3K0SoSF31n5VNpn/UtSobWvM8yc1g='
+
+
 token:
   expiration_time: 86400000
   secret: user_token_native_ecommerce_service
