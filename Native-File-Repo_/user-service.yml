@@ -12,3 +12,6 @@ token:
 
 gateway:
   ip: 127.0.0.1
+
+order_service:
+  uri: http://ORDER-SERVICE:8000/order-service/%s/orders
